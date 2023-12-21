@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-image: url("https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/iStock-477110708%20(1).jpg?itok=wCLnw6I9");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
+h1 {
+  background: #53b6f0;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 18px 0;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 70px;
+  width: 45%;
+  min-width: 500px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+  
+}
+.weather-input {
+  width: 100%;
+}
+.weather-input input {
+  height: 46px;
+  width: 100%;
+  outline: none;
+  font-size: 1.07rem;
+  padding: 0 17px;
+  margin: 10px 0 20px 0;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.weather-input input:focus {
+  padding: 0 16px;
+  border: 2px solid #1734a7;
+}
+
+.weather-input button {
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 60px;
+  font-size: 1rem;
+  color: #fff;
+  background: #53b6f0;
+  transition: 0.2s ease;
+}
+.weather-input .search-btn:hover {
+  background: #2c52ed;
+}
+.weather-body img{
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+.weather-data {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.weather-data .details {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #53b6f0;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.location-not-found img {
+  width:25% ;
+  justify-content: center;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7fd2ecc18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <div class="container">
+        <div class="weather-input">
+            <input class="city-input" type="text" placeholder="Enter the City">
+            <button class="search-btn" id="searchBtn"><h3>Get Weather</h3></button>
+        </div>
+        <div class="weather-body">
+            <center><img class="weather-img" src="" ></center> <br><br>
+            <p class="description"></p>
+        </div>
+        <div class="location-not-found"style="display: none;">Location Not Found<img src="assets/404.png" alt="404 Error"</div>
+    </div>
+        <div class="weather-data">
+            <div class="details temperature">
+                <h4>Temperature: <span id="FeelsLike">__</span></h4>
+            </div>
+            <div class="details humidity">
+                <h4>Humidity: <span id="humidity">__%</span></h4>
+            </div>
+            <div class="details wind-speed">
+                <h4>Wind Speed: <span id="wind-speed">__ M/S</span></h4>
+            </div>
+        </div>
+       
+    <script src="script.js" defer></script>
+</body>
+</html>
